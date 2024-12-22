@@ -7,4 +7,4 @@ install numpy, matplotlib, argparse
 Run script:
 
 ### example
-python mcsa_algorithm.py --dims [n_of_dims] --iterations [n_of_iterations] --population [population_size] --lower_bound -10.0 --upper_bound 10.0
+python mcsa.py --dims 10 --iterations 100 --population 30 --lower_bound -10 --upper_bound 10
